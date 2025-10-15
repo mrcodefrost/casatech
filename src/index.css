@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  --color-bg: #050510;
+  --color-accent: #7b5cff;
+  --color-accent2: #ff71ce;
+  --color-text: #eaeaea;
+  --font-sans: 'Poppins', sans-serif;
+}
+
+@layer base {
+
+  html,
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+  }
+}
+
+.bg-stars {
+  background: radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+    radial-gradient(circle at 80% 80%, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 50px 50px;
+}

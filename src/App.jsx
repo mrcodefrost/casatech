@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
@@ -22,13 +21,3 @@ const App = () => {
 };
 
 export default App;
-
-// function App() {
-//   return (
-//     <div className="text-white text-3xl flex items-center justify-center h-screen">
-//       React is working! 🚀
-//     </div>
-//   );
-// }
-
-// export default App;
